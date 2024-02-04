@@ -89,7 +89,7 @@ def get_CCZ() -> pcvl.Processor:
     # *********************************** #
     # 2. Circuit converter
     # *********************************** #
-    qiskit_converter = QiskitConverter(catalog, backend_name="Naive")
+    # qiskit_converter = QiskitConverter(catalog, backend_name="Naive")
     qiskit_converter = QiskitConverter(catalog, backend_name="SLOS")
     # qiskit_converter = QiskitConverter(catalog, backend_name="CliffordClifford2017")
     quantum_processor = qiskit_converter.convert(qc, use_postselection=True)
