@@ -1,1 +1,9 @@
 perceval-quandela==0.10.3
+qiskit==0.44.2
+qiskit-aer==0.12.2
+qiskit-finance==0.3.4
+qiskit-ibm-runtime==0.8.0
+qiskit-ibmq-provider==0.20.2
+qiskit-ionq==0.4.3
+qiskit-optimization==0.5.0
+qiskit-terra==0.25.2.1
